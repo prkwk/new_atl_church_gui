@@ -107,5 +107,5 @@ app.post('/search', (req, res) => {
 
 //starting the server
 app.listen(process.env.PORT || 2000, ()  => {
-	console.log(port + ' port is live locally and ' + process.env.PORT + 'is up');
+	console.log(2000 + ' port is live locally and ' + process.env.PORT + 'is up');
 });
