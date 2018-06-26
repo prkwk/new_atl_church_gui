@@ -105,6 +105,7 @@ app.post('/search', (req, res) => {
 	res.render('index');
 });
 
-app.listen(2000, () => {
-	console.log("SERVER ON!!! PORT 2500");
+//starting the server
+app.listen(process.env.PORT || 2000, ()  => {
+	console.log(port + ' port is live locally and ' + process.env.PORT + 'is up');
 });
